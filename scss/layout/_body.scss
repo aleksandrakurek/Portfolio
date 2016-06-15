@@ -1,0 +1,18 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+body {
+    font-family: $main_font;
+    background-color: $color;
+    font-size: $font_size_l;
+    color: $font-color;
+}
