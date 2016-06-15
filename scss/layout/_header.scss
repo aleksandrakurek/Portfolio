@@ -20,26 +20,18 @@ header {
         width: 100%;
         padding: 100px 15px;
         text-align: center;
-        // border: 1px solid;
         h1 {
-            // margin-top: 20%;
+            font-size: $font_size_xxl;
             margin-bottom: 0;
-            // text-transform: uppercase;
-            // font-weight: 700;
         }
         p {
+            font-size: $font_size_xl;
             margin-bottom: 50px;
-            font-size: $font_size_l;
             font-weight: 300;
-            // color: $color_3;
-            // background: $color_4;
-            // border: $color_4 solid 1 px;
-            // border-radius: 300px;
-            // padding: 10px;
         }
     }
 }
-@media(min-width:768px) {
+@media(max-width:768px) {
     header {
         min-height: 100%;
         .header-content-inner {
@@ -52,11 +44,14 @@ header {
             margin-right: auto;
             margin-left: auto;
             max-width: 1000px;
+            h1 {
+                font-size: $font_size_xl;
+            }
             p {
                 margin-right: auto;
                 margin-left: auto;
                 max-width: 80%;
-                font-size: $font_size_l;
+                font-size: $font_size_m;
             }
         }
     }
