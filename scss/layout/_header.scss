@@ -17,6 +17,7 @@ header {
     -o-background-size: cover;
     .header-content-inner {
         position: relative;
+          margin-top: 25%;
         width: 100%;
         padding: 100px 15px;
         text-align: center;
@@ -31,10 +32,13 @@ header {
         }
     }
 }
+
+
 @media(max-width:768px) {
     header {
         min-height: 100%;
         .header-content-inner {
+          margin-top: 0;
             position: absolute;
             top: 50%;
             padding: 0 50px;
