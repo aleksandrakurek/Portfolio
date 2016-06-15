@@ -52,6 +52,8 @@ hr {
     font-family: $main_font;
     width: 300px;
     text-align: center;
+    position: relative;
+    top: 40;
 }
 .btn:hover {
     color: $border-color;
@@ -69,7 +71,32 @@ a {
     color: $font-color;
     text-align: center;
     .btn {
-        text-decoration: none;
-        display: block;
+      text-decoration: none;
+      display: block;
+    }
+}
+.col-lg-6,
+.col-sm-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media (min-width: 1200px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+}
+@media (min-width: 768px) {
+    .col-sm-12 {
+        width: 100%;
+        float: left;
+    }
+    .col-lg-6 {
+        width: 50%;
+        float: right;
     }
 }
