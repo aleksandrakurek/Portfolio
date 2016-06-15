@@ -25,6 +25,9 @@
             background-size: cover;
             width: 50vw;
             height: 300px;
+            top: 50%;
+            width: 100%;
+            text-align: center;
             .project-name {
                 padding: 0 15px;
                 font-family: "Helvetica", serif;
@@ -52,13 +55,7 @@
         #img6 {
             background-image: url("https://s-media-cache-ak0.pinimg.com/564x/65/1e/18/651e18c553b4d5d92d9cfe97f9c4c76f.jpg");
         }
-        .galeria-box-caption-content {
-            // position: absolute;
-            top: 50%;
-            width: 100%;
-            text-align: center;
-            // transform: translateY(-50%);
-        }
+      
     }
 }
 @media (min-width: 768px) {
