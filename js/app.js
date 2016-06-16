@@ -16,7 +16,7 @@
 // contact
 $(document).ready(function() {
   $('i').hide();
-})
+});
 
 $(window).load(function() {
   $('i').show();
@@ -72,4 +72,4 @@ $(window).load(function() {
     }, 250);
   }, 2000);
 
-})
+});
