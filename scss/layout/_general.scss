@@ -20,6 +20,8 @@
     text-align: center;
     position: relative;
     top: 40;
+    // background-color: $border-color;
+    color:$font-color;
 }
 .btn:hover, .btn_default {
     color: $border-color;
