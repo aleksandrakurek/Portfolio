@@ -9,14 +9,19 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Trirong&subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cormorant&subset=latin-ext" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Cormorant&subset=latin-ext" rel="stylesheet"> -->
+    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'> -->
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" type="text/css">
-
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"> -->
     <!-- JS -->
     <script src="http://code.jquery.com/jquery-3.0.0.min.js"></script>
-     <script src="js/app.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+
+    <!-- Social icons -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
 </head>
 
@@ -34,12 +39,13 @@
     <header>
         <div class="container">
 
-            <div class="header-content-inner">
+            <div class="header-content-inner animated fadeInUpBig">
                 <h1>Front End Developer</h1>
                 <p>Aleksandra Kurek</p>
                 <!-- <hr> -->
-                <a href="#about" class="btn" id="button_about">Dowiedz się więcej!</a>
+                <div class="row"> <a href="#about" class="btn" id="button_about">Dowiedz się więcej!</a>
                     <a href="#about" class="btn" id="button_contact">Kontakt</a>
+                </div>
             </div>
 
         </div>
@@ -193,34 +199,64 @@
 
     <aside class="light_bg">
         <div class="col-lg-4 col-lg-offset-2 text-center ">
-            <a class="btn" href="https://github.com/aleksandrakurek">Github</a>
-
-            <div class="col-lg-4 text-center">
+            <!-- <a class="btn" href="https://github.com/aleksandrakurek">Github</a> -->
+        </div>
+        <!-- <div class="col-lg-4 text-center">
                 <p><a href="mailto:kurek.aleksandra@gmail.com">Napisz do mnie!</a></p>
-            </div>
+            </div> -->
 
     </aside>
 
-
-
     <!-- FOOTER -->
+
+
     <footer id="footer" class="footer">
         <div class="container">
 
-            <div class="row">
+            <!-- Social  -->
+            <img class="me" src="https://s-media-cache-ak0.pinimg.com/236x/2e/fa/b2/2efab221582f627f21f90f51f8efffa2.jpg" alt="" />
 
-                <div class="col-sm-12 col-lg-6">
-                    <p class="right">Social media</p>
+            <div class="social">
+                <a href="https://github.com/aleksandrakurek">
+                    <i id="github" class="icon-github"></i></a>
+
+                <a href="https://pl.linkedin.com/in/aleksandrakurek">
+                    <i id="linkedin" class="icon-linkedin-sign"></i> </a>
+
+                <a href="mailto:kurek.aleksandra@gmail.com">
+                    <i id="mail" class="icon-envelope"></i> </a>
+
+
+
+                <div class="row">
+
+                    <div class="col-sm-12 col-lg-6">
+                        <p class="right">
+
+                            <!-- <img class="me" src="http://gravatar.com/avatar/25b1fc64ba12614875c1e467d7e4c86e?s=512" alt="" />
+
+  <div class="social">
+  <a href="https://github.com/aleksandrakurek"> <i id="github" class="icon-github"></i>
+
+    <a href="https://pl.linkedin.com/in/aleksandrakurek">
+      <i id="linkedin" class="icon-linkedin-sign"></i> </a>
+
+    <a href="mailto:kurek.aleksandra@gmail.com">
+      <i id="mail" class="icon-envelope"></i> </a>
+  </div> -->
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <p>2016 Aleksandra Kurek</p>
+                    </div>
                 </div>
-                <div class="col-lg-6">
-                    <p>2016 Aleksandra Kurek</p>
-                </div>
+
+
+
             </div>
-
-
-
-        </div>
     </footer>
+
+
 
 
 

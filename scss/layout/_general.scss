@@ -43,10 +43,9 @@ a {
     text-align: center;
     .btn {
         text-decoration: none;
-        display: block;
+        display: inline-block;
     }
 }
-,
 
 .no-padding {
     padding: 0;
@@ -85,4 +84,9 @@ h1 {
 }
 .text-center {
     text-align: center;
+}
+
+i{
+  color:black;
+  font-size: 20px;
 }
