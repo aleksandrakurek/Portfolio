@@ -1,5 +1,6 @@
 .container {
-  width: 1024px;
+  width: 400px;
+  border: 1px solid hotpink;
   max-width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -92,7 +93,100 @@
   margin-left: -15px;
 }
 
-.btn, .btn_default:hover {
+hr {
+  margin: 30px auto;
+  height: 0;
+  max-width: 50px;
+  border-color: #d6c9c9;
+  border-width: 3px;
+  display: block;
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
+  -webkit-margin-start: auto;
+  -webkit-margin-end: auto;
+  text-align: center;
+}
+
+.btn-container {
+  text-align: center;
+  margin: 3em auto;
+}
+
+.elegant {
+  display: inline-block;
+  margin: 4em auto;
+  padding: 10px 20px;
+  border: 1px solid #222;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  margin: 30px auto;
+  color: #333333;
+  font: 14px "helvetica", sans-serif;
+  background: #fafafa;
+}
+
+.elegant:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -18px;
+  left: 52%;
+  width: 30px;
+  height: 10px;
+  border-top: 1px solid #222;
+  -webkit-transform: rotate(-65deg);
+  -moz-transform: rotate(-65deg);
+  -ms-transform: rotate(-65deg);
+  -o-transform: rotate(-65deg);
+  transform: rotate(-65deg);
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+.elegant:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -22px;
+  left: 38%;
+  width: 30px;
+  height: 10px;
+  border-top: 1px solid #222;
+  -webkit-transform: rotate(-65deg);
+  -moz-transform: rotate(-65deg);
+  -ms-transform: rotate(-65deg);
+  -o-transform: rotate(-65deg);
+  transform: rotate(-65deg);
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+.elegant:active:before, .elegant:focus:before, .elegant:hover:before {
+  -webkit-transform: rotate(-130deg);
+  -moz-transform: rotate(-130deg);
+  -ms-transform: rotate(-130deg);
+  -o-transform: rotate(-130deg);
+  transform: rotate(-130deg);
+  top: -21px;
+  left: 35%;
+}
+
+.elegant:active:after, .elegant:focus:after, .elegant:hover:after {
+  -webkit-transform: rotate(-130deg);
+  -moz-transform: rotate(-130deg);
+  -ms-transform: rotate(-130deg);
+  -o-transform: rotate(-130deg);
+  transform: rotate(-130deg);
+  left: 60%;
+  bottom: -15px;
+}
+
+.btn,
+.btn_default:hover {
   border: 3px solid #222;
   padding: 10px;
   margin: 10px;
@@ -104,7 +198,8 @@
   color: #222;
 }
 
-.btn:hover, .btn_default {
+.btn:hover,
+.btn_default {
   color: #fff;
   font-weight: bold;
   background-color: #222;
@@ -301,52 +396,6 @@ header .header-content-inner p {
   background-color: #fff;
   height: auto;
   color: #222;
-}
-
-.me {
-  display: block;
-  margin: 2em auto;
-  margin-bottom: 3em;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  position: relative;
-  z-index: 2;
-}
-
-.social {
-  text-align: center;
-  font-size: 2.5em;
-  color: #555;
-  overflow: hidden;
-}
-
-.social a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.social i {
-  margin: .3em;
-  cursor: pointer;
-  transition: color 300ms ease, margin-top 300ms ease;
-  transform: translateZ(0);
-}
-
-.social i:hover {
-  margin-top: -1px;
-}
-
-.social i#github:hover {
-  color: black;
-}
-
-.social i#linkedin:hover {
-  color: #0177B5;
-}
-
-.social i#mail:hover {
-  color: #F7B401;
 }
 
 #footer p {

@@ -1,17 +1,102 @@
-// hr {
-//     margin: 30px auto;
-//     height: 0;
-//     max-width: 50px;
-//     border-color: #d6c9c9;
-//     border-width: 3px;
-//     display: block;
-//     -webkit-margin-before: 0.5em;
-//     -webkit-margin-after: 0.5em;
-//     -webkit-margin-start: auto;
-//     -webkit-margin-end: auto; // border-style: inset;
-//     text-align: center;
-// }
-.btn, .btn_default:hover {
+hr {
+    margin: 30px auto;
+    height: 0;
+    max-width: 50px;
+    border-color: #d6c9c9;
+    border-width: 3px;
+    display: block;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto; // border-style: inset;
+    text-align: center;
+}
+//elegant button
+.btn-container {
+    text-align: center;
+    margin: 3em auto;
+}
+.elegant {
+    display: inline-block;
+    margin: 4em auto;
+    padding: 10px 20px;
+    border: 1px solid $main-dark;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    margin: 30px auto;
+    color: #333333;
+    font: 14px "helvetica", sans-serif;
+    background: #fafafa;
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: -18px;
+        left: 52%;
+        width: 30px;
+        height: 10px;
+        border-top: 1px solid $main-dark;
+        // @include transform(rotate(-65deg));
+        -webkit-transform: rotate(-65deg);
+        -moz-transform: rotate(-65deg);
+        -ms-transform: rotate(-65deg);
+        -o-transform: rotate(-65deg);
+        transform: rotate(-65deg);
+        // @include transition (all 0.7s ease);
+        -webkit-transition: all 0.7s ease;
+        -moz-transition: all 0.7s ease;
+        transition: all 0.7s ease;
+    }
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: -22px;
+        left: 38%;
+        width: 30px;
+        height: 10px;
+        border-top: 1px solid $main-dark;
+        // @include transform(rotate(-65deg));
+        -webkit-transform: rotate(-65deg);
+        -moz-transform: rotate(-65deg);
+        -ms-transform: rotate(-65deg);
+        -o-transform: rotate(-65deg);
+        transform: rotate(-65deg);
+        // @include transition (all 0.7s ease);
+        -webkit-transition: all 0.7s ease;
+        -moz-transition: all 0.7s ease;
+        transition: all 0.7s ease;
+    }
+    &:active,
+    &:focus,
+    &:hover {
+        &:before {
+            // @include transform(rotate(-130deg));
+            -webkit-transform: rotate(-130deg);
+            -moz-transform: rotate(-130deg);
+            -ms-transform: rotate(-130deg);
+            -o-transform: rotate(-130deg);
+            transform: rotate(-130deg);
+            top: -21px;
+            left: 35%;
+        }
+        &:after {
+            // @include transform(rotate(-130deg));
+            -webkit-transform: rotate(-130deg);
+            -moz-transform: rotate(-130deg);
+            -ms-transform: rotate(-130deg);
+            -o-transform: rotate(-130deg);
+            transform: rotate(-130deg);
+            left: 60%;
+            bottom: -15px;
+        }
+    }
+}
+// koniec
+.btn,
+.btn_default:hover {
     border: 3px solid $font-color;
     padding: 10px;
     margin: 10px;
@@ -21,9 +106,10 @@
     position: relative;
     top: 40;
     // background-color: $border-color;
-    color:$font-color;
+    color: $font-color;
 }
-.btn:hover, .btn_default {
+.btn:hover,
+.btn_default {
     color: $border-color;
     // color: $font-color;
     font-weight: bold;
@@ -46,7 +132,6 @@ a {
         display: inline-block;
     }
 }
-
 .no-padding {
     padding: 0;
 }
@@ -85,8 +170,7 @@ h1 {
 .text-center {
     text-align: center;
 }
-
-i{
-  color:black;
-  font-size: 20px;
+i {
+    color: black;
+    font-size: 20px;
 }
