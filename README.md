@@ -1,14 +1,14 @@
 My website portfolio.
 
-16.06.2016
-now I'm going to add some javascript code & css animation!
+20.06.2016
+The site is finished :) There can be still some bugs, so I would appreciate the feedback!
 
-As for now:
-- it's RWD (and I try to keep it that way);
-- contains all important sections;
+It's simple website where I will put my finished projects & it can be used as a contact page.
 
-Plans for later:
-- cv & follow-up information about me
-
+Its fully RWD.
+I used here HTML5, CSS3, jQuery (for scrolling and portfolio-gallery) and Bootstrap layout.
+There are CSS3 animation for bouncy arrow and header title.
 
 Check it out here --->  http://aleksandrakurek.github.io/Portfolio/
+
+Feel free to contact with me- I'd love to hear what you think about it! 
