@@ -40,7 +40,7 @@ header {
 }
 @media(max-width:630px) {
     header {
-      
+
         .header-content-inner {
             margin-top: 0;
             position: absolute;
@@ -72,6 +72,10 @@ header {
             .portfolio {
                 font-size: $font_size_l;
             }
+
+        }
+        .arrow{
+          visibility: hidden;
         }
     }
 }

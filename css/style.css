@@ -351,6 +351,9 @@ header .header-content-inner .portfolio {
   header .header-content-inner .portfolio {
     font-size: 24px;
   }
+  header .arrow {
+    visibility: hidden;
+  }
 }
 
 #about {
@@ -385,6 +388,7 @@ header .header-content-inner .portfolio {
 }
 
 .footer {
+  position: static;
   margin: 0 auto;
   padding: 0;
   background-color: #ffffe0;
@@ -441,6 +445,8 @@ header .header-content-inner .portfolio {
   height: auto;
   min-height: 100vh;
   margin-top: 0;
+  margin: 0 auto;
+  padding: 0;
 }
 
 #portfolio a {
@@ -686,6 +692,16 @@ header .header-content-inner .portfolio {
 
 #skills p {
   font-size: 24px;
+}
+
+@media (max-width: 320px) {
+  p {
+    font-size: 16px;
+  }
+  img {
+    width: 10%;
+    height: 10%;
+  }
 }
 
 /*# sourceMappingURL=maps/style.css.map */
