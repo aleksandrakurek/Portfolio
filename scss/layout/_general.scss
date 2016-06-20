@@ -17,10 +17,10 @@ hr {
     -webkit-margin-before: 0.5em;
     -webkit-margin-after: 0.5em;
     -webkit-margin-start: auto;
-    -webkit-margin-end: auto; // border-style: inset;
+    -webkit-margin-end: auto;
     text-align: center;
 }
-//elegant button
+/* elegant button */
 .elg_btn-container {
     text-align: center;
     margin: 3em auto;
@@ -69,13 +69,11 @@ hr {
         width: 30px;
         height: 10px;
         border-top: 3px solid $main-dark;
-        // @include transform(rotate(-65deg));
         -webkit-transform: rotate(-65deg);
         -moz-transform: rotate(-65deg);
         -ms-transform: rotate(-65deg);
         -o-transform: rotate(-65deg);
         transform: rotate(-65deg);
-        // @include transition (all 0.7s ease);
         -webkit-transition: all 0.7s ease;
         -moz-transition: all 0.7s ease;
         transition: all 0.7s ease;
@@ -84,7 +82,6 @@ hr {
     &:focus,
     &:hover {
         &:before {
-            // @include transform(rotate(-130deg));
             -webkit-transform: rotate(-130deg);
             -moz-transform: rotate(-130deg);
             -ms-transform: rotate(-130deg);
@@ -94,7 +91,6 @@ hr {
             left: 35%;
         }
         &:after {
-            // @include transform(rotate(-130deg));
             -webkit-transform: rotate(-130deg);
             -moz-transform: rotate(-130deg);
             -ms-transform: rotate(-130deg);

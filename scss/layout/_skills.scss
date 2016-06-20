@@ -1,17 +1,16 @@
 #skills {
-  height: 100vh;
+    height: 100vh;
     background-color: $bright-color;
-      p {
+    p {
         font-size: $font_size_l;
     }
 }
-
 @media(max-width:320px) {
-  p {
-    font-size: $font_size_m;
-}
-img{
-  width: 10%;
-  height: 10%;
-}
+    p {
+        font-size: $font_size_m;
+    }
+    img {
+        width: 10%;
+        height: 10%;
+    }
 }

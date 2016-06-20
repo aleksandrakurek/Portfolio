@@ -40,7 +40,6 @@ header {
 }
 @media(max-width:630px) {
     header {
-
         .header-content-inner {
             margin-top: 0;
             position: absolute;
@@ -59,7 +58,7 @@ header {
 }
 @media(max-width:400px) {
     header {
-          background-color: $bright-color;
+        background-color: $bright-color;
         .header-content-inner {
             margin-top: 0;
             position: absolute;
@@ -73,10 +72,9 @@ header {
             .portfolio {
                 font-size: $font_size_xl;
             }
-
         }
-        .arrow{
-          visibility: hidden;
+        .arrow {
+            visibility: hidden;
         }
     }
 }

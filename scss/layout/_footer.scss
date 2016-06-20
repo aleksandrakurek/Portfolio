@@ -1,5 +1,4 @@
 .footer {
-    // position: absolute;
     margin: 0 auto;
     padding: 0;
     background-color: #ffffe0;
@@ -54,13 +53,11 @@
         p {
             font-size: $font_size_s;
             left: 10%;
-            // float:left;
         }
     }
     #contact-icons {
         position: relative;
         width: 200px;
-        // left: 20%;
         float: right;
         .fa {
             display: inline-block;
@@ -73,7 +70,7 @@
             border-radius: 100%;
             margin-top: 5%;
             margin-left: 1.5%;
-            padding-left: 5%; // padding-bottom: 2px;
+            padding-left: 5%;
         }
         .fa:hover {
             font-size: 30px;
