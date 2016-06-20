@@ -390,9 +390,10 @@ header .header-content-inner .portfolio {
   margin-top: 10%;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .contact {
-    min-height: 100vh;
+    height: 100vh;
+    min-height: 600px;
   }
 }
 
@@ -418,7 +419,7 @@ header .header-content-inner .portfolio {
   color: white;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 600px) {
   #contact-icons {
     display: inline;
     position: absolute;
@@ -449,37 +450,53 @@ header .header-content-inner .portfolio {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .footer {
     min-height: 20vh;
   }
   .footer p {
     font-size: 12px;
-    left: 30%;
+    left: 10%;
   }
   #contact-icons {
     position: relative;
     width: 200px;
-    left: 20%;
+    float: right;
   }
   #contact-icons .fa {
     display: inline-block;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     background: #d6c9c9;
-    padding-top: 10px;
+    padding-top: 4%;
     width: 40px;
     height: 40px;
     border-radius: 100%;
     margin-top: 5%;
     margin-left: 1.5%;
+    padding-left: 5%;
   }
   #contact-icons .fa:hover {
-    font-size: 40px;
+    font-size: 30px;
     color: #797b7f;
     background: #fde5ec;
     width: 40px;
     height: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer p {
+    width: 100%;
+    left: 30%;
+  }
+  .footer #contact-icons {
+    width: 100%;
+    left: 20%;
+  }
+  .footer #contact-icons .fa {
+    padding-top: 3%;
+    padding-left: 3%;
   }
 }
 
