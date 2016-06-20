@@ -10,12 +10,17 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Trirong&subset=latin-ext" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css?family=Cormorant&subset=latin-ext" rel="stylesheet"> -->
-    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'> -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" type="text/css">
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
-    <!-- <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"> -->
     <!-- JS -->
     <script src="http://code.jquery.com/jquery-3.0.0.min.js"></script>
     <script src="js/app.js" type="text/javascript"></script>
@@ -27,67 +32,46 @@
 
 <body>
 
-
-    <!-- NAV -->
-    <nav id="nav">
-        <div class="container">
-        </div>
-    </nav>
-
-
     <!-- HEADER -->
+
     <header>
         <div class="container">
 
-            <div class="header-content-inner animated fadeInUpBig">
-                <h1>Front End Developer</h1>
-                <p>Aleksandra Kurek</p>
-                <!-- <hr> -->
-                <div class="row">
-
-                  <div class="btn-container">
-                    <a class="elegant" href="#">
-                      An Elegant Button
-                    </a>
-                  </div>
-
-                  <!-- <a href="#about" class="btn" id="button_about">Dowiedz się więcej!</a> -->
-                    <!-- <a href="#about" class="btn" id="button_contact">Kontakt</a> -->
-
-
-
-                </div>
+            <div class="header-content-inner animated fadeInUp">
+                <h1 class="name">Aleksandra Kurek</h1>
+                <p class="front-end">Front End Developer</p>
+                <p class="portfolio">portfolio</p>
             </div>
 
-        </div>
+            <div class="arrow animated bounce infinite" id="button_about"></div>
     </header>
+
 
     <!-- ABOUT -->
     <section id="about">
         <div class="container">
 
             <div class="about-content">
-                <h1>O mnie</h1>
+                <h1 class="heading">O mnie</h1>
 
                 <div class="row">
 
-                    <div class="col-sm-12 col-lg-6">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero nostrum animi facilis quod et, cumque minima labore tempore possimus, reiciendis dolore id inventore laboriosam at, quasi soluta voluptatum amet praesentium.</p>
-                    </div>
-                    <div class="col-lg-6">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat asperiores repudiandae nisi maxime earum, nobis quaerat unde iusto maiores magnam quam, commodi dignissimos quae assumenda dolorum, delectus explicabo provident,
-                            ipsum.
-                        </p>
+                    <div class="col-sm-12">
+
+                        <p> Nazywam się Aleksandra Kurek i jestem front-end developerem z Krakowa.
+                            <br> Tworzę strony w HTML5, CSS3. JavaScrip oraz jQuery. Dbam o responsywność w swoich projektach. Korzystam z Git, Gulp i Sass. W pracy korzystam też z programów graficznych (Photoshop i InDesign). Poniżej znajdziesz moje CV oraz
+                            projekty, które wykonałam. Jeśli chcesz mnie zatrudnić- napisz do mnie !</p>
+
                     </div>
                 </div>
                 <div class="row">
 
 
-                  <div class="btn-container">
-                    <a class="elegant" href="#">
-                      An Elegant Button
+                    <div class="btn-container" id="button_skills">
+                        <a class="elegant" href="#">
+                      Sprawdź co potrafię!
                     </a>
-                  </div>
+                    </div>
 
                     <!-- <a href="#" class="btn">Pobierz CV</a> -->
                 </div>
@@ -101,10 +85,16 @@
     <!-- SKILLS -->
     <section id="skills">
         <div class="container">
-            <h1>Umiejętności</h1>
+            <h1 class="heading">Umiejętności</h1>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae similique dicta quia repellendus maxime dolore quod expedita recusandae sit, enim, error excepturi reiciendis ipsa vel, aperiam voluptatem delectus quisquam. Odit.
-            </p>
+                HTML5, CSS3, JavaScript, jQuery, RWD , Git, Gulp, Sass, Photoshop, InDesign </p>
+
+            <div class="btn-container" id="button_portfolio">
+                <a class="elegant" href="#">
+              Zobacz moje portfolio
+            </a>
+            </div>
+
         </div>
     </section>
 
@@ -113,7 +103,7 @@
     <section class="portfolio no-padding" id="portfolio">
         <div class="container-fluid">
 
-            <h1> Moje portfolio</h1>
+            <h1 class="heading text-center"> Moje portfolio</h1>
 
             <div class="no-gutter">
                 <div class="col-lg-4 col-sm-6">
@@ -121,7 +111,7 @@
                         <div class="galeria-box-caption">
                             <div class="image_box" id="img1">
                                 <div class="project-name">
-                                    Zobacz moje CV
+                                    Bhagaskara
                                 </div>
                             </div>
                         </div>
@@ -132,20 +122,7 @@
                         <div class="galeria-box-caption">
                             <div class="image_box" id="img2">
                                 <div class="project-name">
-
-                                    Zobacz moje projekty
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="galeria-box">
-                        <div class="galeria-box-caption">
-                            <div class="image_box" id="img3">
-
-                                <div class="project-name">
-                                    Mailing
+                                    Sit on chair
                                 </div>
                             </div>
                         </div>
@@ -154,15 +131,31 @@
                 <div class="col-lg-4 col-sm-6">
                     <a href="#" class="galeria-box">
                         <div class="galeria-box-caption">
-                            <div class="image_box" id="img4">
+                            <div class="image_box" id="img1">
 
                                 <div class="project-name">
-                                    Zdjęcie
+                                    Mailing
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
+
+
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="galeria-box">
+                        <div class="galeria-box-caption">
+                            <div class="image_box" id="img2">
+
+                                <div class="project-name">
+                                    Wkrótce...
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!--
                 <div class="col-lg-4 col-sm-6">
                     <a href="#" class="galeria-box">
                         <div class="galeria-box-caption">
@@ -199,15 +192,13 @@
         <div class="container">
 
             <div class="text-center">
-                <h2>Potrzebujesz więcej informacji?</h2>
+                <h1>Potrzebujesz więcej informacji?</h1>
 
                 <div class="btn-container">
-                  <a class="elegant" href="#">
-                    An Elegant Button
+                    <a class="elegant" href="mailto:kurek.aleksandra@gmail.com">
+                    Napisz do mnie!
                   </a>
                 </div>
-
-                <!-- <a href="https://pl.linkedin.com/in/aleksandrakurek" class="btn">Linkedin</a> -->
 
             </div>
 
@@ -221,38 +212,44 @@
             </div>
 
         </div>
+        <!-- <main> -->
+        <div class="arrow animated bounce infinite">
+            <!-- </main> -->
     </section>
 
-    <aside class="light_bg">
-        <div class="col-lg-4 col-lg-offset-2 text-center ">
-            <!-- <a class="btn" href="https://github.com/aleksandrakurek">Github</a> -->
-        </div>
-        <!-- <div class="col-lg-4 text-center">
-                <p><a href="mailto:kurek.aleksandra@gmail.com">Napisz do mnie!</a></p>
-            </div> -->
-
-    </aside>
 
     <!-- FOOTER -->
 
 
-    <footer id="footer" class="footer">
-        <div class="container">
+    <footer>
+        <p class="animate bounce"> 2016 Aleksandra Kurek</p>
+        <div class="social-icons ">
 
 
-                <div class="row">
+            <a class="social-icon social-icon--linkedin">
+                <i class="fa fa-linkedin"></i>
+                <div class="tooltip">LinkedIn</div>
+            </a>
+            <a class="social-icon social-icon--github">
+                <i class="fa fa-github"></i>
+                <div class="tooltip">Github</div>
+            </a>
+            <a class="social-icon social-icon--dribbble">
+                <i class="fa fa-dribbble"></i>
+                <div class="tooltip">Dribbble</div>
+            </a>
+            <!-- <div class="social-icons"> -->
+            <a class="social-icon social-icon--codepen">
+                <i class="fa fa-codepen"></i>
+                <div class="tooltip">Codepen</div>
+            </a>
+        </div>
 
-
-
-                          <div class="col-sm-12 col-lg-6">
-                    <!-- <div class="col-lg-6"> -->
-                        <p>2016 Aleksandra Kurek</p>
-                    </div>
-                </div>
-
-
-
-            </div>
+        </div>
+        <!-- codepen
+    github
+    linkedin
+    freecodecamp -->
     </footer>
 
 
