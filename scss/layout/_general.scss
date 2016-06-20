@@ -24,6 +24,7 @@ hr {
 .elg_btn-container {
     text-align: center;
     margin: 3em auto;
+
     a {
         color: black;
         text-decoration: none;
@@ -33,13 +34,14 @@ hr {
     display: inline-block;
     margin: 4em auto;
     padding: 10px 20px;
-    border: 1px solid $main-dark;
+    border: 3px solid $main-dark;
     text-transform: uppercase;
     letter-spacing: 1px;
     position: relative;
     margin: 30px auto;
     font-family: $main_font;
     background: #fafafa;
+
     &:before {
         content: '';
         display: block;
@@ -48,7 +50,7 @@ hr {
         left: 52%;
         width: 30px;
         height: 10px;
-        border-top: 1px solid $main-dark;
+        border-top: 3px solid $main-dark;
         -webkit-transform: rotate(-65deg);
         -moz-transform: rotate(-65deg);
         -ms-transform: rotate(-65deg);
@@ -66,7 +68,7 @@ hr {
         left: 38%;
         width: 30px;
         height: 10px;
-        border-top: 1px solid $main-dark;
+        border-top: 3px solid $main-dark;
         // @include transform(rotate(-65deg));
         -webkit-transform: rotate(-65deg);
         -moz-transform: rotate(-65deg);
@@ -107,7 +109,7 @@ hr {
     color: black;
     font-weight: bold;
     text-decoration: none;
-    border: 2px solid black;
+    border: 3px solid black;
 }
 // koniec
 .no-padding {
