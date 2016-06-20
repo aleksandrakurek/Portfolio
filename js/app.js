@@ -7,12 +7,6 @@
 		    }, 1000);
 		});
 
-		$("#button_skills").click(function() {
-				$('html, body').animate({
-						scrollTop: $("#skills").offset().top
-				}, 1000);
-		});
-
 		$("#button_portfolio").click(function() {
 				$('html, body').animate({
 						scrollTop: $("#portfolio").offset().top
