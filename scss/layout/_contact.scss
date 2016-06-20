@@ -1,22 +1,12 @@
 .contact {
-    padding: 100px 0;
+    // padding: 100px 0;
     color: $border-color;
-    background-color: #222;
-    padding: 50px 0;
+    background-color: $main-grey;
+    // background-image: url(https://s-media-cache-ak0.pinimg.com/564x/91/65/dc/9165dc5cf509caf5abb0b1d086d19010.jpg);
+    // background-position: center;
+    // background-repeat: repeat;
+    // background-size: cover;
+    // padding: 50px 0;
     height: auto;
-    min-height: 800px;
-    .section-heading {
-        margin-top: 0;
-    }
-    p,a {
-        color: $border-color;
-    }
-}
-
-
-.light_bg{
-  margin-top: 30px;
-  background-color: $border-color;
-  height: auto;
-  color:$font-color;
+    // min-height: 800px;
 }

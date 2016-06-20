@@ -1,18 +1,12 @@
-.heading{
-  font-size: 40px;
-  font-family: $heading_font;
-  text-align: center;
-  background-image: url(/images/watercolor1.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+.heading {
+    font-size: 40px;
+    font-family: $heading_font;
+    text-align: center;
+    background-image: url("/images/watercolor1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
-p{
-
-}
-
-
-
 hr {
     margin: 30px auto;
     height: 0;
@@ -27,22 +21,24 @@ hr {
     text-align: center;
 }
 //elegant button
-.btn-container {
+.elg_btn-container {
     text-align: center;
     margin: 3em auto;
+    a {
+        color: black;
+        text-decoration: none;
+    }
 }
 .elegant {
     display: inline-block;
     margin: 4em auto;
     padding: 10px 20px;
     border: 1px solid $main-dark;
-    text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
     position: relative;
     margin: 30px auto;
-    color: #333333;
-    font: 14px "helvetica", sans-serif;
+    font-family: $main_font;
     background: #fafafa;
     &:before {
         content: '';
@@ -53,13 +49,11 @@ hr {
         width: 30px;
         height: 10px;
         border-top: 1px solid $main-dark;
-        // @include transform(rotate(-65deg));
         -webkit-transform: rotate(-65deg);
         -moz-transform: rotate(-65deg);
         -ms-transform: rotate(-65deg);
         -o-transform: rotate(-65deg);
         transform: rotate(-65deg);
-        // @include transition (all 0.7s ease);
         -webkit-transition: all 0.7s ease;
         -moz-transition: all 0.7s ease;
         transition: all 0.7s ease;
@@ -116,7 +110,6 @@ hr {
     border: 2px solid black;
 }
 // koniec
-
 .no-padding {
     padding: 0;
 }

@@ -96,7 +96,7 @@
   font-size: 40px;
   font-family: "Sacramento", cursive;
   text-align: center;
-  background-image: url(/images/watercolor1.png);
+  background-image: url("/images/watercolor1.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -116,9 +116,14 @@ hr {
   text-align: center;
 }
 
-.btn-container {
+.elg_btn-container {
   text-align: center;
   margin: 3em auto;
+}
+
+.elg_btn-container a {
+  color: black;
+  text-decoration: none;
 }
 
 .elegant {
@@ -126,13 +131,11 @@ hr {
   margin: 4em auto;
   padding: 10px 20px;
   border: 1px solid #222;
-  text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 1px;
   position: relative;
   margin: 30px auto;
-  color: #333333;
-  font: 14px "helvetica", sans-serif;
+  font-family: "Trirong", serif;
   background: #fafafa;
 }
 

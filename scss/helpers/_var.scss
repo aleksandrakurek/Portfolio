@@ -13,7 +13,7 @@ $bright-color: #ffffff;
 
 $border-color:#fff;
 
-$color: #f2f2f2;
+// $color: #f2f2f2;
 $color_3:rgba(255,255,255,1);
 $color_4:rgba(154,154,154,.5);
 $color_5:rgba(34,34,34,.05);
@@ -38,11 +38,16 @@ $text-faded: rgba(255,255,255,.7);
 // Fonts
 // font-family:
 $main_font: 'Trirong', serif;
-// $main_font: 'Georgia', serif;
+
+
 $accent_font: 'Cormorant', serif;
+$portfolio_font: 'Pinyon Script', cursive;
+$heading_font:'Sacramento', cursive;
+
 
 $font_size_s: 12px;
 $font_size_m: 16px;
 $font_size_l:24px;
 $font_size_xl:30px;
-$font_size_xxl:60px;
+$font_size_xxl:50px;
+$font_size_xxxl:80px;
