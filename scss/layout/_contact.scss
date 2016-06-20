@@ -9,7 +9,12 @@
         text-decoration: none;
         color: black;
     }
-    h1{
-      margin-top:10%;
+    h1 {
+        margin-top: 10%;
+    }
+}
+@media(max-width:400px) {
+    .contact {
+        min-height: 100vh;
     }
 }

@@ -337,6 +337,9 @@ header .header-content-inner .portfolio {
 }
 
 @media (max-width: 400px) {
+  header {
+    background-color: #ffffff;
+  }
   header .header-content-inner {
     margin-top: 0;
     position: absolute;
@@ -346,10 +349,10 @@ header .header-content-inner .portfolio {
     font-size: 30px;
   }
   header .header-content-inner .front-end {
-    font-size: 16px;
+    font-size: 24px;
   }
   header .header-content-inner .portfolio {
-    font-size: 24px;
+    font-size: 30px;
   }
   header .arrow {
     visibility: hidden;
@@ -387,14 +390,20 @@ header .header-content-inner .portfolio {
   margin-top: 10%;
 }
 
+@media (max-width: 400px) {
+  .contact {
+    min-height: 100vh;
+  }
+}
+
 .footer {
-  position: static;
   margin: 0 auto;
   padding: 0;
   background-color: #ffffe0;
   min-height: 10vh;
   height: auto;
   width: 100%;
+  bottom: 0;
 }
 
 .footer p {
@@ -409,42 +418,75 @@ header .header-content-inner .portfolio {
   color: white;
 }
 
-#contact-icons {
-  display: inline;
-  position: absolute;
-  text-align: center;
-  z-index: 1;
-  width: 300px;
-  bottom: 10px;
-  left: 40%;
+@media (min-width: 320px) {
+  #contact-icons {
+    display: inline;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    width: 300px;
+    bottom: 10px;
+    left: 40%;
+  }
+  #contact-icons .fa {
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    background: #d6c9c9;
+    padding-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 5%;
+    margin-left: 1.5%;
+  }
+  #contact-icons .fa:hover {
+    font-size: 40px;
+    color: #797b7f;
+    background: #fde5ec;
+    width: 60px;
+    height: 60px;
+  }
 }
 
-#contact-icons .fa {
-  display: inline-block;
-  font-size: 30px;
-  color: white;
-  background: #d6c9c9;
-  padding-top: 10px;
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  margin-top: 5%;
-  margin-left: 1.5%;
-}
-
-#contact-icons .fa:hover {
-  font-size: 40px;
-  color: #797b7f;
-  background: #fde5ec;
-  width: 60px;
-  height: 60px;
+@media (max-width: 320px) {
+  .footer {
+    min-height: 20vh;
+  }
+  .footer p {
+    font-size: 12px;
+    left: 30%;
+  }
+  #contact-icons {
+    position: relative;
+    width: 200px;
+    left: 20%;
+  }
+  #contact-icons .fa {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    background: #d6c9c9;
+    padding-top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-top: 5%;
+    margin-left: 1.5%;
+  }
+  #contact-icons .fa:hover {
+    font-size: 40px;
+    color: #797b7f;
+    background: #fde5ec;
+    width: 40px;
+    height: 40px;
+  }
 }
 
 #portfolio {
   background-color: #ffffff;
   height: auto;
   min-height: 100vh;
-  margin-top: 0;
   margin: 0 auto;
   padding: 0;
 }
@@ -472,6 +514,8 @@ header .header-content-inner .portfolio {
 }
 
 .galeria-box .galeria-box-caption .image_box {
+  margin: 0 auto;
+  padding: 0;
   height: 300px;
   background-position: center;
   background-repeat: no-repeat;
@@ -500,6 +544,16 @@ header .header-content-inner .portfolio {
   background-image: url("../images/responsive.png");
 }
 
+.project-name {
+  font-family: 'helvetica', sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 200;
+  color: #797b7f;
+  text-align: center;
+  position: relative;
+}
+
 @media (min-width: 1100px) {
   .project-name {
     font-family: 'helvetica', sans-serif;
@@ -522,9 +576,13 @@ header .header-content-inner .portfolio {
 }
 
 @media (max-width: 320px) {
+  .galeria-box,
+  .image_box {
+    margin-right: 100px;
+    margin-left: -80px;
+  }
   .project-name {
     padding-top: 15%;
-    bottom: -250px;
   }
 }
 
@@ -683,6 +741,22 @@ header .header-content-inner .portfolio {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 320px) {
+  .port {
+    width: 100%;
+    min-height: 800px;
+    height: auto;
+  }
+  .port img {
+    width: 200px;
+    height: 150px;
+    position: relative;
+  }
+  .port .description {
+    width: 100%;
+  }
 }
 
 #skills {

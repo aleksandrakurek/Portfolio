@@ -59,6 +59,7 @@ header {
 }
 @media(max-width:400px) {
     header {
+          background-color: $bright-color;
         .header-content-inner {
             margin-top: 0;
             position: absolute;
@@ -67,10 +68,10 @@ header {
                 font-size: $font_size_xl;
             }
             .front-end {
-                font-size: $font_size_m;
+                font-size: $font_size_l;
             }
             .portfolio {
-                font-size: $font_size_l;
+                font-size: $font_size_xl;
             }
 
         }
