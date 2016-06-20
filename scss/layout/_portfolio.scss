@@ -2,7 +2,7 @@
     background-color: $bright-color;
     height: auto;
     min-height: 100vh;
-    margin-top:0;
+    margin-top: 0;
     a {
         color: black;
         text-decoration: none;
@@ -16,7 +16,6 @@
     .galeria-box-caption {
         display: block;
         bottom: 0;
-        // width: 100%;
         min-height: 100%;
         text-align: center;
         -webkit-transition: all 0.35s;
@@ -27,29 +26,39 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            // width: 50vw;
             top: 50%;
             text-align: center;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: auto;
+            position: relative;
         }
-        #img1 {
-            background-image: url("/images/24.jpg");
-            // background-image: url("/images/watercolor2.png");
-            // opacity: 0.4;
+        .image_box--portfolio {
+            background-image: url("../images/responsive.png");
         }
-        #img2 {
-            background-image: url("/images/watercolor2.png");
-            // opacity: 0.4;
+        .image_box--bhagaskara {
+            background-image: url("../images/code.png");
+        }
+        .image_box--mailing {
+            background-image: url("../images/design.png");
+        }
+        .image_box--sitonchair {
+            background-image: url("../images/responsive.png");
         }
     }
 }
-
 .project-name {
-    font-family: $main_font;
+    // font-family: $main_font;
+    font-family: 'helvetica', sans-serif;
     text-transform: uppercase;
-    font-size: $font_size_l;
-    font-weight: 400;
+    font-size: $font_size_xl;
+    font-weight: 200;
     padding-top: 10%;
-    color: black;
+    color: $main-grey;
+    text-align: center;
+    position: relative;
+    bottom:-180px;
+
 }
 .gallery {
     margin: 0 auto;
@@ -91,7 +100,7 @@
                 width: 100%;
                 top: 0;
                 bottom: 0;
-                left:0;
+                left: 0;
                 background: rgba(0, 0, 0, 0.3);
                 content: "";
                 opacity: 0;
@@ -106,7 +115,6 @@
         }
     }
 }
-
 @media (min-width: 768px) {
     .project-name {
         font-size: 22px;
@@ -114,7 +122,6 @@
     .image_box {
         width: 50vw;
     }
-
 }
 @media (max-width: 768px) {
     .image_box {
@@ -129,12 +136,13 @@
     left: 0;
     padding-top: 100px;
     background: white;
-    background-color: #fafafa;
+    background-image: url("../images/26.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
     z-index: 103;
     visibility: hidden;
     -webkit-transform: translateY(-100%);
     transform: translateY(-100%);
-    border-bottom: 1px solid #d0d0d0;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
