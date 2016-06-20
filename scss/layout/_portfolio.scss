@@ -40,7 +40,6 @@
             // opacity: 0.4;
         }
     }
-
 }
 @media (min-width: 768px) {
     .project-name {
@@ -61,35 +60,29 @@
     color: black;
 }
 .gallery {
-    // padding: 40px 0 300px;
+    margin: 0 auto;
+    padding: 0;
     position: relative;
     overflow: hidden;
     ul {
         li {
+            text-align: center;
             position: relative;
             list-style: none;
             a {
-                border:1px solid red;
-                display: block;
                 position: relative;
-                width: 100%;
-                height: 100%;
                 margin: 0;
                 padding: 0;
                 line-height: 0;
-                img {
-                    width: 100%;
-                    height: 100%;
-                }
             }
             a:before {
                 position: absolute;
                 width: 100%;
                 height: 100%;
-                // top: 40%;
-                // left: 50%;
-                // margin: -14px 0 0 -16px;
-                // background: url("") no-repeat;
+                top: 40%;
+                left: 50%;
+                margin: -14px 0 0 -16px;
+                background: url("") no-repeat;
                 content: "";
                 opacity: 0;
                 z-index: 1;
@@ -98,7 +91,7 @@
                 transition: all 0.3s linear;
             }
             a:hover:before {
-                // top: 50%;
+                top: 50%;
                 opacity: 1;
             }
             a:after {
@@ -106,8 +99,8 @@
                 width: 100%;
                 top: 0;
                 bottom: 0;
-                background-image: url("./images/confetti.jpg");
-                // background: rgba(0, 0, 0, 0.3);
+                left:0;
+                background: rgba(0, 0, 0, 0.3);
                 content: "";
                 opacity: 0;
                 -webkit-transition: all 0.3s linear;
@@ -117,7 +110,6 @@
             }
             a:hover:after {
                 opacity: 1;
-                background-image: url("./images/confetti.jpg");
             }
         }
     }
