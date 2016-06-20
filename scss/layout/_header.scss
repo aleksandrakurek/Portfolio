@@ -6,56 +6,63 @@ header {
     position: relative;
     text-align: center;
     color: $diffrent-text-color;
-    background-color: $color_2;
-    background-attachment: fixed;
-    background-image: url("http://www.ivankatrump.com/wp-content/uploads/2015/06/july_iphone_background.jpg");
-    // background-image: url("/images/background.png");
+    background-color: $main-pink;
+    background-image: url("/images/header1.png");
     background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    // background-size: cover;
     .header-content-inner {
         position: relative;
         width: 100%;
-        padding: 100px 15px;
+        // padding: 100px 15px;
         text-align: center;
-        h1 {
-            margin-top: 25%;
-            font-size: $font_size_xxl;
+        .name {
+            font-size: $font_size_xxxl;
             margin-bottom: 0;
+            text-transform: uppercase;
         }
-        p {
+        .front-end {
             font-size: $font_size_xl;
-            margin-bottom: 50px;
             font-weight: 300;
+        }
+        .portfolio {
+            font-family: 'Pinyon Script', cursive;
+            font-size: 40px;
         }
     }
 }
-@media(max-width:768px) {
+@media(max-width:630px) {
     header {
-        min-height: 100%;
-
+        // min-height: 100%;
         .header-content-inner {
             margin-top: 0;
             position: absolute;
-            top: 50%;
-            padding: 0 50px;
-            -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-            margin-right: auto;
-            margin-left: auto;
-            max-width: 1000px;
-            h1 {
+            top: 25%;
+            .name {
+                font-size: $font_size_xxl;
+            }
+            .front-end {
+                font-size: $font_size_l;
+            }
+            .portfolio {
+                font-size: $font_size_l;
+            }
+        }
+    }
+}
+@media(max-width:400px) {
+    header {
+        .header-content-inner {
+            margin-top: 0;
+            position: absolute;
+            top: 25%;
+            .name {
                 font-size: $font_size_xl;
             }
-            p {
-                margin-right: auto;
-                margin-left: auto;
-                max-width: 80%;
+            .front-end {
                 font-size: $font_size_m;
+            }
+            .portfolio {
+                font-size: $font_size_l;
             }
         }
     }
