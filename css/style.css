@@ -796,4 +796,42 @@ header .header-content-inner .portfolio {
   }
 }
 
+.skills_box div {
+  width: 400px;
+  height: 40px;
+}
+
+.skills_box div p {
+  width: 150px;
+  height: 30px;
+}
+
+.skills_box div .skills_level {
+  position: relative;
+  float: right;
+  top: -40px;
+  background-image: url("../images/dot.png");
+  background-repeat: repeat;
+  background-position: right;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.skills_box div .bdb {
+  width: 200px;
+}
+
+.skills_box div .db {
+  width: 160px;
+}
+
+.skills_box div .dst {
+  width: 120px;
+}
+
+.skills_box div .ndst {
+  width: 80px;
+}
+
 /*# sourceMappingURL=maps/style.css.map */

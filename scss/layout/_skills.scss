@@ -14,3 +14,36 @@
         height: 10%;
     }
 }
+.skills_box {
+    div {
+        width: 400px;
+        height: 40px;
+        p {
+            width: 150px;
+            height: 30px;
+        }
+        .skills_level {
+            position: relative;
+            float: right;
+            top: -40px;
+            background-image: url("../images/dot.png");
+            background-repeat: repeat;
+            background-position: right;
+            height: 30px;
+            line-height: 30px;
+            display: inline-block;
+        }
+        .bdb {
+            width: 200px;
+        }
+        .db {
+            width: 160px;
+        }
+        .dst {
+            width: 120px;
+        }
+        .ndst {
+            width: 80px;
+        }
+    }
+}
