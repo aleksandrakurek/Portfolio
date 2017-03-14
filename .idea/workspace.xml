@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d24a74f-3911-4503-8171-550a089ad30b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,29 +21,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="49" column="3" lean-forward="false" selection-start-line="49" selection-start-column="3" selection-end-line="100" selection-end-column="18" />
-              <folding>
-                <marker date="1489491454000" expanded="true" signature="1813:4647" ph="..." />
-                <marker date="1489491454000" expanded="true" signature="1852:4625" ph="..." />
-                <marker date="1489491454000" expanded="true" signature="1890:4352" ph="..." />
-                <marker date="1489491454000" expanded="true" signature="1937:3748" ph="..." />
-                <marker date="1489491454000" expanded="true" signature="2055:3718" ph="..." />
-                <marker date="1489491454000" expanded="true" signature="2093:2210" ph="..." />
-                <marker date="1489491454000" expanded="true" signature="2247:2363" ph="..." />
-                <marker date="1489491454000" expanded="true" signature="2400:2522" ph="..." />
-                <marker date="1489491454000" expanded="true" signature="2559:2676" ph="..." />
-                <marker date="1489491454000" expanded="true" signature="2713:2827" ph="..." />
-                <marker date="1489491454000" expanded="true" signature="2864:2979" ph="..." />
-                <marker date="1489491454000" expanded="true" signature="3016:3131" ph="..." />
-                <marker date="1489491454000" expanded="true" signature="3168:3289" ph="..." />
-                <marker date="1489491454000" expanded="true" signature="3326:3446" ph="..." />
-                <marker date="1489491454000" expanded="true" signature="3483:3605" ph="..." />
-                <marker date="1489491454000" expanded="true" signature="3805:4326" ph="..." />
-                <marker date="1489491454000" expanded="true" signature="3895:4296" ph="..." />
-                <marker date="1489491454000" expanded="true" signature="4390:4603" ph="..." />
-                <marker date="1489491454000" expanded="true" signature="4467:4577" ph="..." />
-              </folding>
+            <state relative-caret-position="412">
+              <caret line="271" column="18" lean-forward="true" selection-start-line="271" selection-start-column="18" selection-end-line="271" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,12 +105,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489491432298</updated>
-      <workItem from="1489491433802" duration="23000" />
+      <workItem from="1489491433802" duration="105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23000" />
+    <option name="totallyTimeSpent" value="105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="828" extended-state="6" />
@@ -143,7 +124,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32880434" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -169,29 +150,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="49" column="3" lean-forward="false" selection-start-line="49" selection-start-column="3" selection-end-line="100" selection-end-column="18" />
-          <folding>
-            <marker date="1489491454000" expanded="true" signature="1813:4647" ph="..." />
-            <marker date="1489491454000" expanded="true" signature="1852:4625" ph="..." />
-            <marker date="1489491454000" expanded="true" signature="1890:4352" ph="..." />
-            <marker date="1489491454000" expanded="true" signature="1937:3748" ph="..." />
-            <marker date="1489491454000" expanded="true" signature="2055:3718" ph="..." />
-            <marker date="1489491454000" expanded="true" signature="2093:2210" ph="..." />
-            <marker date="1489491454000" expanded="true" signature="2247:2363" ph="..." />
-            <marker date="1489491454000" expanded="true" signature="2400:2522" ph="..." />
-            <marker date="1489491454000" expanded="true" signature="2559:2676" ph="..." />
-            <marker date="1489491454000" expanded="true" signature="2713:2827" ph="..." />
-            <marker date="1489491454000" expanded="true" signature="2864:2979" ph="..." />
-            <marker date="1489491454000" expanded="true" signature="3016:3131" ph="..." />
-            <marker date="1489491454000" expanded="true" signature="3168:3289" ph="..." />
-            <marker date="1489491454000" expanded="true" signature="3326:3446" ph="..." />
-            <marker date="1489491454000" expanded="true" signature="3483:3605" ph="..." />
-            <marker date="1489491454000" expanded="true" signature="3805:4326" ph="..." />
-            <marker date="1489491454000" expanded="true" signature="3895:4296" ph="..." />
-            <marker date="1489491454000" expanded="true" signature="4390:4603" ph="..." />
-            <marker date="1489491454000" expanded="true" signature="4467:4577" ph="..." />
-          </folding>
+        <state relative-caret-position="412">
+          <caret line="271" column="18" lean-forward="true" selection-start-line="271" selection-start-column="18" selection-end-line="271" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
